@@ -1,0 +1,34 @@
+{
+  "platformSteps" : [
+    {"name" : "platform", "type" : "commands-step", "blocking" : true,
+      "options" : {
+        "commands" : [
+          "sudo chown ubuntu -R /build",
+          "cd $WERCKER_ROOT"
+        ]}}],
+  "dependencySteps" : [
+    {"name" : "configure", "type" : "commands-step", "blocking" : false,
+      "options" : {
+        "dependentOnFile" : "configure",
+        "commands" : [
+          "cd $WERCKER_ROOT",
+          "./configure"
+        ]}},
+    {"name" : "make", "type" : "commands-step", "blocking" : false,
+      "options" : {
+        "dependentOnFile" : "Makefile",
+        "commands" : [
+          "cd $WERCKER_ROOT",
+          "make"
+        ]}}
+  ],
+  "testSteps" : [
+    {"name" : "make_test", "type" : "commands-step", "blocking" : false,
+      "options" : {
+        "dependentOnFile" : "Makefile",
+        "commands" : [
+          "cd $WERCKER_ROOT",
+          "make test"
+        ]}}
+  ]
+}
