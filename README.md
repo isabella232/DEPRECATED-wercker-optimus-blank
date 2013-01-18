@@ -1,7 +1,7 @@
 Optimus: Blank
 ================
 
-Copyright & warrenty
+Copyright & warranty
 -----------
   Copyright (c) 2013 wercker.
 
