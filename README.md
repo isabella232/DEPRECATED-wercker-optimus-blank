@@ -21,4 +21,4 @@ Warranty
   SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
   DAMAGES.
 
-  Again, see the included LICENSE file for specific legal details.
+  See the included LICENSE file for specific legal details.
