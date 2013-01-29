@@ -1,6 +1,6 @@
 {
 	"name" : "blank",
-	"version" : "0.0.3",
+	"version" : "0.0.4",
 	"stackInfo" :
   	{
       "stackVersions" : ["0.0.0"],
@@ -13,5 +13,6 @@
   "mainDetect" : [],
   "supportDetect" : [],
   "packageIgnore" : [],
+  "environmentVariables" : [{""}],
   "priority" : 1000
 }
