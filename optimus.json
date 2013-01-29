@@ -13,7 +13,6 @@
   "mainDetect" : [],
   "supportDetect" : [],
   "packageIgnore" : [],
-  "environmentVariables" : [{""}],
+  "environmentVariables" : [],
   "priority" : 1000
-
 }
