@@ -12,7 +12,7 @@
   "isPrivate" : false,
   "mainDetect" : [],
   "supportDetect" : [],
-  "packageIgnore" : [],
+  "packageIgnore" : ["node_modules", ".idea", ".git", ".gitignore", ".gitmodules", ".jshintignore", ".jshintrc"],
   "environmentVariables" : [],
   "priority" : 1000
 }
