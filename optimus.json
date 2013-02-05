@@ -3,7 +3,7 @@
 	"version" : "0.0.0",
 	"stackInfo" :
   	{
-      "stackVersions" : ["0.0.0"],
+      "stackVersions" : ["0.0.1"],
       "defaultVersion" : "0.0.0",
       "versionMapping": [
           {"0" : "0.0.0"}
